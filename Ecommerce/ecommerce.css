@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.underline {
+    height: 5px;
+    width: 90px;
+    background-color: #f59e0b;
+}
+
+h1 {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.container {
+    padding: 20px;
+
+}
+
+.btns {
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.btns button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.products .product {
+    width: 300px;
+    border: 1px solid rgb(194, 188, 188);
+    padding: 10px;
+}
+
+.product .product-header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.price {
+    background-color: #f59e0b;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.product img {
+    width: 100%;
+    height: 300px;
+}
+
+.input-field {
+    margin: 0px 5px;
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.input-bar {
+    height: 20px;
+    width: 100%;
+    color: #f59e0b;
+}
+
+#categoryInput {
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    background-color: gainsboro;
+    padding: 5px;
+
+}
+
+#categoryInput[type=text] {
+    text-align: center;
+}
+
+#categoryInput[type=text]:hover {
+    border: 1px solid blue;
+
+}
